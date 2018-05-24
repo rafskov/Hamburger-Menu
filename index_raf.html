@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Brighton Times</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="header__inner">
+
+        <picture>
+          <source media="(min-width:800px)" srcset="bri_hi_res.jpg 2x">
+          <source media="(min-width:342px)" srcset="bri_low_res.jpg">
+          <img class="header__logo" src="images/bri_hi_res.jpg" alt="iconic view of brighton england" srcset="bri_hi_res.jpg 2x,bri_low_res.jpg">
+        </picture>
+          <h1 class="header__title">
+            The Brighton Times
+          </h1>
+          <a id="menu" class="header__menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+            </svg>
+          </a>
+      </div>
+    </header>
+
+    <nav id="drawer" class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#">News</a></li>
+        <li class="nav__item"><a href="#">Events</a></li>
+        <li class="nav__item"><a href="#">Culture</a></li>
+        <li class="nav__item"><a href="#">Blog</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="content">
+        <section class="hero">
+          <article class="description">
+            <h2>Absolutely astonishing breaking news!</h2>
+            <p>Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko. Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</p>
+          </article>
+        </section>
+
+        <section class="news top-news">
+          <h2 class="news__title">Top news <a href="#" class="news__more">+ more</a></h2>
+          <ul>
+            <li class="top-news__item">
+              <a href="#">Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Squid lomo Kickstarter art lomo Kickstarter art party cronut scenester.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Organic raw denim lomo Kickstarter art Vice keffiyeh four loko.</a>
+            </li>
+            <li class="top-news__item">
+              <a href="#">Organic raw denim Vice keffiyeh lomo Kickstarter art lomo Kickstarter art four loko.</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="scores">
+          <table class="scores__table">
+            <thead>
+              <tr>
+                <th></th>
+                <th></th>
+                <th>Location</th>
+                <th class="scores__location">Team</th>
+                <th>Score</th>
+                <th class="hidden_score" >Team</th>
+                <th class="hidden_score">Score</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <tr class="score_font">
+                <td><img src = "http://a1.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/col.png&h=70&w=70"></td>
+                <td><img src = "http://a1.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/lad.png&h=70&w=70" class="hideimage"></td>
+                <td class="scores__location">Brighton (Friday)</td>
+                <td>Rockies</td>
+                <td>95</td>
+                <td class="hidden_score winner" >Dodgers</td>
+                <td class="hidden_score winner" >109</td>
+              </tr>
+              <tr class="score_font hide">
+                <td><img src = "http://a1.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/lad.png&h=70&w=70"></td>
+                <td></td>
+                <td class="scores__location">Brighton (Friday)</td>
+                <td class="winner" >Dodgers</td>
+                <td class="winner" >109</td>
+
+              </tr>
+              <tr class="score_font">
+                <td><img src = "http://a1.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/mia.png&h=70&w=70"></td>
+                <td><img src = "http://a1.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/nym.png&h=70&w=70" class="hideimage"></td>
+                <td class="scores__location">Worthington (Saturday)</td>
+                <td>Marlins</td>
+                <td>90</td>
+                <td class="hidden_score winner" >Mets</td>
+                <td class="hidden_score winner" >110</rd>
+              </tr>
+              <tr class="score_font hide">
+                <td><img src = "http://a1.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/nym.png&h=70&w=70"></td>
+                <td></td>
+                <td class="scores__location">Worthington (Saturday)</td>
+                <td class="winner">Mets</td>
+                <td class="winner">110</td>
+
+              </tr>
+              <tr class="score_font">
+                <td><img src = "http://a1.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/sd.png&h=70&w=70"></td>
+                <td><img src = "http://a1.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/wsh.png&h=70&w=70" class="hideimage"></td>
+                <td class="scores__location">Northampton (Sunday)</td>
+                <td>Padres</td>
+                <td>92</td>
+                <td class="hidden_score winner">Nationals </td>
+                <td class="hidden_score winner">109</rd>
+              </tr>
+              <tr class="score_font hide"  >
+                <td><img src = "http://a1.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/wsh.png&h=70&w=70"></td>
+                <td></td>
+                <td class="scores__location">Northampton (Sunday)</td>
+                <td class="winner">Nationals</td>
+                <td class="winner">109</td>
+
+              </tr>
+
+            </tbody>
+          </table>
+        </section>
+
+        <section class="weather">
+          <span class="weather__location">Brighton, UK</span>
+          <span class="weather__desc">Sunny</span>
+          <span class="weather__today">
+          <img class="weather__today__image" src="images/weather.png" alt="icon of a partially cloudy day"><span class="weather__today__temp">13</span><span class="weather__today__deg">&deg;C</span>
+          </span>
+          <ul class="weather__next">
+            <li class="weather__next__item">
+              <span>Mon</span>
+              <img class="weather__next__image" src="images/sunny.png" alt="icon of a sunny day">
+              <span>13 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Tues</span>
+              <img class="weather__next__image" src="images/cloudy.png" alt="icon of a cloudy day">
+              <span>13 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Wed</span>
+              <img class="weather__next__image" src="images/cloudy.png" alt="icon of a cloudy day">
+              <span>13 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Thu</span>
+              <img class="weather__next__image" src="images/rain.png" alt="icon of a rainy day">
+              <span>13 &deg;C</span>
+            </li><li class="weather__next__item">
+              <span>Fri</span>
+              <img class="weather__next__image" src="images/sunny.png" alt="icon of a sunny day">
+              <span>13 &deg;C</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="news recent-news">
+          <h2 class="news__title">Latest news <a href="#" class="news__more">+ more</a></h2>
+          <ul>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/dog.jpg" alt="picture of a girl with a large, stuffed dog toy">
+              <h3 class="snippet__title"><a href="#">Gastropub distillery Marfa farm-to-table</a></h3>
+              <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.
+              Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.
+              </p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/dog.jpg" alt="picture of a girl with a large, stuffed dog toy">
+              <h3 class="snippet__title"><a href="#">Organic raw keffiyeh four loko.</a></h3>
+              <p>Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice loko.
+              </p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/dog.jpg" alt="picture of a girl with a large, stuffed dog toy">
+              <h3 class="snippet__title"><a href="#">Kickstarter art party cronut scenester.</a></h3>
+              <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.
+              Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko.
+              </p>
+            </li>
+            <li class="snippet">
+              <img class="snippet__thumbnail" src="images/dog.jpg" alt="picture of a girl with a large, stuffed dog toy">
+              <h3 class="snippet__title"><a href="#">Squid lomo Kickstarter art party cronut </a></h3>
+              <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.
+              Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko. Squid lomo Kickstarter art party cronut scenester. Organic raw denim Vice keffiyeh four loko.Vice keffiyeh four loko.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Follow us on Twitter</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </footer>
+    </main>
+    <script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+  </body>
+</html>
